@@ -3,7 +3,7 @@
 FINALS PROJECT
 
 GROUP MEMBERS (4)
-Lazo, Alexia Marthena
+Lazo, Alexia Marthena DV.
 Tamondong, Janna Paula
 Velasquez, Charmela
 Muena, Djeana Arnelle
