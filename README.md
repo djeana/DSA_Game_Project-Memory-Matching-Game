@@ -4,6 +4,6 @@ FINALS PROJECT
 
 GROUP MEMBERS (4)
 Lazo, Alexia Marthena DV.
-Tamondong, Janna Paula
-Velasquez, Charmela
-Muena, Djeana Arnelle
+Tamondong, Janna Paula C.
+Velasquez, Charmela R.
+Muena, Djeana Arnelle E.
