@@ -14,6 +14,8 @@ const allImages = [
 const urlParams = new URLSearchParams(window.location.search);
 const difficulty = urlParams.get('mode') || 'easy';
 
+document.body.classList.add(`${difficulty}-bg`);
+
 let selectedImages;
 let columns;
 

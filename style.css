@@ -70,17 +70,19 @@ button img {
 }
 
 .diff-btn {
-    font-family: 'Honk', sans-serif;
+    font-family: 'luckiest guy', cursive;
     font-size: 70px;
     padding: 10px 30px;
     background-color: #ffe659;
-    border: 4px solid black;
+    border: 4px solid rgb(255, 255, 255);
     border-radius: 10px;
     cursor: pointer;
 }
 .difficulty-h1 {
-    font-family: 'Honk', system-ui;
-    font-size: 100px;
+    font-family: 'luckiest guy', cursive;
+    font-size: 90px;    
+    color: #be0f0f;
+    -webkit-text-stroke: 3px rgb(143, 12, 12);
     margin-bottom: 20px;
 }
 
@@ -88,9 +90,11 @@ button img {
     font-family: 'Fredoka', sans-serif;
     font-weight: 700;
     font-size: 50px;
+    color: rgb(102, 50, 38);
+    -webkit-text-stroke: 1px rgb(102, 50, 38); 
     padding: 10px 30px;
     background-color: #ffe659;
-    border: 4px solid black;
+    border: 3px solid rgb(124, 73, 43);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -162,13 +166,25 @@ button img {
     font-family: 'Fredoka', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    color: #94cfff;
-    -webkit-text-stroke: 0.5px rgb(106, 163, 201);
+    color: #ffffff;
+    -webkit-text-stroke: 2px rgb(126, 132, 224);
     background: transparent;
     border: none;
     padding: 0;
     cursor: pointer;
     z-index: 100;
+}
+
+body.difficulty-bg .back-btn {
+    color: #ffffff;
+    -webkit-text-stroke: 2px rgb(43, 109, 172);
+}
+
+body.difficulty-bg {
+    background-image: url("diffbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body.game-bg {
@@ -177,17 +193,47 @@ body.game-bg {
     position: relative;
 }
 
-body.game-bg::before {
+body.easy-bg::before {
     content: "";
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("gamebg.gif");
-    background-size: 50%;
+    background-image: url("easy-bg.jpg");
+    background-size: 500px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom right;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+body.medium-bg::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("medium-bg.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+body.hard-bg::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("hard-bg.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     opacity: 0.8;
     z-index: -1;
 }
